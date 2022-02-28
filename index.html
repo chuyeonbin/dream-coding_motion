@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MOTION</title>
-    <link rel="stylesheet" href="../src/styles/global.css" />
-    <script src="../build/test.js"></script>
+    <link rel="stylesheet" href="../style/style.css" />
+    <script type="module" src="./build/app.js" defer></script>
   </head>
   <body>
     <div class="wrap">
@@ -15,18 +15,20 @@
           <h1 class="header__title">MOTION</h1>
           <nav class="header__navbar">
             <ul class="navbar__list">
-              <li class="navbar__item">IMAGE</li>
-              <li class="navbar__item">VIDEO</li>
-              <li class="navbar__item">NOTE</li>
-              <li class="navbar__item">TASK</li>
+              <li class="navbar__item" data-item="image">IMAGE</li>
+              <li class="navbar__item" data-item="video">VIDEO</li>
+              <li class="navbar__item" data-item="note">NOTE</li>
+              <li class="navbar__item" data-item="task">TASK</li>
             </ul>
           </nav>
         </header>
-        <section class="document">
-          <ul class="document__list">
-            <li class="document__item"></li>
-          </ul>
-        </section>
+        <main class="document">
+          <!-- <ul class="document__list">
+            <li class="document__item">
+              <img src="https://picsum.photos/500/300" alt="" />
+            </li>
+          </ul> -->
+        </main>
         <footer class="footer">
           Copyrightⓒ2022 chuyeonbin All rights reserved.
         </footer>

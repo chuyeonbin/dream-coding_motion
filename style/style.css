@@ -73,9 +73,11 @@ ul {
   background-color: var(--accent-color);
   color: var(--smokywhite);
   font-weight: bold;
+  cursor: pointer;
 }
 
 .document {
+  min-height: 500px;
   flex-grow: 1;
   background-color: var(--document-bg-color);
 }
